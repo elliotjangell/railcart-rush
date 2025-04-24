@@ -757,7 +757,7 @@ loadButton = sprites.create(img`
     .ccccccccccccccccccccccccccccc
     `, 0)
 loadButton.setPosition(115, 80)
-let gameVersion = textsprite.create("v1.1", 0, 15)
+let gameVersion = textsprite.create("v1.0", 0, 15)
 gameVersion.bottom = 120
 gameVersion.left = 0
 let devName = textsprite.create("By Elliot A.", 0, 15)
