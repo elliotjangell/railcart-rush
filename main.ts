@@ -1,8 +1,8 @@
 function titleToNew () {
     if (blockSettings.exists("hasSaveData")) {
         message("Note: This will delete your existing save data. Press A (Space) to confirm or Reset Game (Backspace) to cancel.")
+        tiles.setCurrentTilemap(tilemap`world1`)
     }
-    tiles.setCurrentTilemap(tilemap`world1`)
 }
 function mouseMove (x: number, y: number) {
     mouseOffset.setPosition(x, y)
