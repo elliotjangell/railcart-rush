@@ -1,0 +1,1 @@
+game.splash(text);
